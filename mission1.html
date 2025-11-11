@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Autism</title>
     <link rel="stylesheet" href="mission1.css" />
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -26,8 +27,8 @@
 
       <section id="left">
         <!-- CSS Transition -->
-        <div>
-          <h1>Autism.</h1>
+        <div id="clickMe">
+          <h1 title="Click me! 👆🏻" onclick="changeColour()">Autism.</h1>
         </div>
 
         <!-- CSS animation -->
@@ -41,8 +42,11 @@
 
       <section id="right">
         <img
+          title="Click me! 👆🏻"
+          id="lightBulbImg"
           src="https://t3.ftcdn.net/jpg/17/39/82/02/360_F_1739820266_dyKNlVCtVy1IbVfr9H0rQODaCQNtiKf1.jpg"
           alt="Autism"
+          width="300px"
         />
       </section>
     </main>
