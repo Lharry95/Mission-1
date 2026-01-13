@@ -1,17 +1,16 @@
-body{
-    background-color: rgb(89, 115, 132);
+body {
+  background-color: black;
 }
 
-h1{
-    display:flex;
-    font-family: "Times new roman";
-    justify-content: center;
-    color: white;
+h1 {
+  display: flex;
+  font-family: "Times new roman";
+  justify-content: center;
+  color: rgb(89, 115, 132);
 }
 
-
-p{
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
+p {
+  display: flex;
+  justify-content: center;
+  color: rgb(89, 115, 132);
 }

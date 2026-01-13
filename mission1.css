@@ -12,6 +12,7 @@ body {
   font-family: "Times New Roman";
   background-color: rgb(89, 115, 132);
   flex-wrap: wrap;
+  color: rgb(35, 79, 108);
 }
 
 /* For the navigation bar */
@@ -133,5 +134,47 @@ div:hover {
 @media screen and (max-width: 600px) {
   .nav-link {
     font-size: 12px;
+  }
+}
+
+/* to make arrow down in footer */
+
+.forArrowDown {
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0px;
+  cursor: pointer;
+  text-align: center;
+}
+.arrow-down {
+  width: 20px;
+  height: 10px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgb(35, 79, 108); /* Color of the arrow */
+  position: absolute;
+  /* bottom: 10px; Positions the arrow just below the container */
+  left: 50%; /* Centers the arrow horizontally */
+  transform: translateX(-50%);
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for "pop up" */
+}
+
+.forArrowDown:hover .arrow-down {
+  opacity: 1; /* Makes the arrow visible on hover */
+}
+
+/* transition from current page to nextMission2Page */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 5s ease-in forwards;
+}
+/* The animation itself */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

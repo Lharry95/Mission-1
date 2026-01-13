@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+/* For the header */
+header {
+  justify-content: row;
+  height: 50px;
+}
+
+body {
+  font-family: "Times New Roman";
+  background-color: rgb(41, 65, 99);
+  flex-wrap: wrap;
+  color: rgb(35, 79, 108);
+}
