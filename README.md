@@ -8,7 +8,7 @@ I created a webpage with CSS styling which includes a picture that lights up whe
 ### Built With
 
 
-* HTML
+* React
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
