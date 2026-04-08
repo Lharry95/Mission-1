@@ -35,11 +35,13 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Lharry95/Mission2.git
+   git clone https://github.com/Lharry95/mission-1-lv4-AutismPage.git
+   cd mission-1-lv4-AutismPage
    ```
-2. Install NPM packages
+2. Open in browser
    ```sh
-   npm install
+   Open index.html in your web browser
+   open index.html
    ```
 3. Change git remote url to avoid accidental pushes to base project
    ```sh
@@ -47,6 +49,11 @@ To get a local copy up and running follow these simple example steps.
    git remote -v # confirm the changes
    ```
 
+   
+### Usage
+ 
+No installation required. Simply open `index.html` in a web browser to view the website. 
+All features are fully functional without any dependencies.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -75,7 +82,16 @@ Don't forget to give the project a star! Thanks again!
 </a>
 
 
-
+## Contributing
+ 
+Contributions are welcome! Feel free to fork the repository and submit pull requests for improvements.
+ 
+## Future Enhancements
+ 
+- Backend form submission
+- Database for resources
+- Multi-language support
+- Interactive quiz or assessment tools
 
 
 
