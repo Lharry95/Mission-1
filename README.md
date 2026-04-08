@@ -2,13 +2,25 @@
 ## About The Project
 
 This is an initial project completed for an assignment during my study. We were tasked with creating a webpage with some specific CSS styling on a topic of our choice.
-I created a webpage with CSS styling which includes a picture that lights up when you click it.
+I created a webpage with CSS styling which includes a picture that lights up when you click it. This is an educational website dedicated to autism awareness, built with HTML, CSS, and JavaScript. 
 
 
-### Built With
-
-
-* React
+## Features
+ 
+- **Educational Content**: Informative content about autism spectrum disorder
+- **Responsive Design**: Fully responsive layout for mobile, tablet, and desktop devices
+- **Semantic HTML**: Proper use of HTML5 semantic elements for accessibility
+- **Interactive Elements**: JavaScript-powered features for enhanced user engagement
+- **Modern Styling**: CSS3 with animations, transitions, and modern layout techniques
+- **Accessible Design**: Colour contrast, readable fonts, and proper heading hierarchy
+ 
+## Technologies Used
+ 
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Design
+- Flexbox/CSS Grid
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
